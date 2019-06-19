@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Generate.cs" />
+    <Compile Include="Graph.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
